@@ -7,7 +7,7 @@ using Unity.EditorCoroutines.Editor;
 public class AICommandTool : EditorWindow
 {
     private string commandText = "";
-    private string apiKey = "Api Key";
+    private string apiKey = "";
 
     [MenuItem("Tools/AI Command Tool")]
     public static void ShowWindow()
@@ -58,16 +58,16 @@ public class AICommandTool : EditorWindow
 
     private IEnumerator SendRequest(string apiUrl, string prompt)
     {
-        // OpenAI API'ye JSON isteği gönder
-        var requestBody = new
+        RequestBody requestBody = new RequestBody
         {
-            model = "text-davinci-003", // Model ismi
-            prompt = prompt,
+            model = "gpt-3.5-turbo", // Güncellenmiş model
+            messages = new Message[] { new Message { role = "user", content = prompt } }, // GPT-3.5/4 formatına uygun mesaj yapısı
             max_tokens = 100,
-            temperature = 0.7
+            temperature = 0.7f
         };
 
-        string json = "";//JsonConvert.SerializeObject(requestBody); // JSON'u serialize et
+        string json = JsonUtility.ToJson(requestBody);
+        Debug.Log("Gönderilen JSON: " + json);
 
         UnityWebRequest request = new UnityWebRequest(apiUrl, "POST");
         byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(json);
@@ -80,16 +80,30 @@ public class AICommandTool : EditorWindow
 
         if (request.result == UnityWebRequest.Result.Success)
         {
-            // OpenAI API'den gelen cevabı işle
             string result = request.downloadHandler.text;
             Debug.Log($"AI Cevabı: {result}");
         }
-
-        if (request.result != UnityWebRequest.Result.Success)
+        else
         {
             Debug.LogError($"OpenAI API Hatası: {request.error}");
             Debug.LogError($"Detaylı Yanıt: {request.downloadHandler.text}");
         }
+    }
 
+    // Yeni OpenAI mesaj formatı için sınıflar
+    [System.Serializable]
+    private class RequestBody
+    {
+        public string model;
+        public Message[] messages;
+        public int max_tokens;
+        public float temperature;
+    }
+
+    [System.Serializable]
+    private class Message
+    {
+        public string role;
+        public string content;
     }
 }
