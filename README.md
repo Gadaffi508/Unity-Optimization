@@ -2,12 +2,18 @@
 
 Bu proje, **Unity DOTS (Data-Oriented Technology Stack)** kullanılarak optimize edilmiş bir oyun performansı elde etmeyi amaçlamaktadır. DOTS sistemleri, performans açısından yüksek verimli bir kod yapısı sunar ve CPU üzerindeki yükü azaltarak daha akıcı bir oyun deneyimi sağlar.
 
+![Ekran görüntüsü 2025-03-01 112405](https://github.com/user-attachments/assets/6e22fe5d-ae09-4c8a-b094-0b641c7d5b56)
+
+
 ## 🚀 Proje İçeriği
 
 - **ECS (Entity Component System)** kullanarak bileşen bazlı bir yapı.
 - **Job System** ile çoklu iş parçacıklı hesaplamalar.
 - **Burst Compiler** sayesinde yüksek performanslı kod yürütme.
 - **Physics ve AI optimizasyonları** için DOTS kullanımı.
+
+  ![Ekran görüntüsü 2025-02-28 173155](https://github.com/user-attachments/assets/e79d8012-f5ee-49c9-b441-a0af30f8e85a)
+
 
 ## 📂 Proje Kurulumu
 
@@ -23,6 +29,9 @@ Bu proje, **Unity DOTS (Data-Oriented Technology Stack)** kullanılarak optimize
    ```
 4. **Unity ile Açın:** Unity Hub veya Unity Editor üzerinden açabilirsiniz.
 5. **Gerekli Paketleri Yükleyin:** Unity Package Manager'dan eksik olanları tamamlayın.
+
+![Ekran görüntüsü 2025-03-01 120934](https://github.com/user-attachments/assets/42dccda8-2304-4554-8cf5-bca4944becdc)
+
 
 ## 📜 Kullanım
 
