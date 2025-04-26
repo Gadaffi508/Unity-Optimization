@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: ee957952ceb87ea4297919e00eff1aae
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Untitled(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model_1_submesh_0
+      parentName: Untitled(Clone)
+      position: {x: -11.651181, y: 2.0655863, z: 58.717518}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_1_submesh_0.001
+      parentName: Untitled(Clone)
+      position: {x: 57.280403, y: -4.90885, z: -15.573914}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_1_submesh_0.002
+      parentName: Untitled(Clone)
+      position: {x: -57.136074, y: -4.8967457, z: -15.703918}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_1_submesh_0.003
+      parentName: Untitled(Clone)
+      position: {x: 11.645549, y: 2.0500343, z: 58.668602}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_1_submesh_1
+      parentName: Untitled(Clone)
+      position: {x: 0.0017672593, y: -2.8845165, z: -26.083387}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_1_submesh_1.001
+      parentName: Untitled(Clone)
+      position: {x: -0.018169481, y: 1.1162975, z: -69.49654}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_1_submesh_1.002
+      parentName: Untitled(Clone)
+      position: {x: -0.018169481, y: 1.1162975, z: -69.49654}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_1_submesh_1.003
+      parentName: Untitled(Clone)
+      position: {x: -0.018169481, y: 1.1162975, z: -69.49654}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_1_submesh_1.004
+      parentName: Untitled(Clone)
+      position: {x: -0.018169481, y: 1.1162975, z: -69.49654}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_1_submesh_2
+      parentName: Untitled(Clone)
+      position: {x: 3.9251757e-15, y: -2.3793263e-15, z: 100}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_1_submesh_3
+      parentName: Untitled(Clone)
+      position: {x: 3.9251757e-15, y: -2.3793263e-15, z: 100}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_1_submesh_4
+      parentName: Untitled(Clone)
+      position: {x: 3.9251757e-15, y: -2.3793263e-15, z: 100}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_1_submesh_5
+      parentName: Untitled(Clone)
+      position: {x: 0.00000011527931, y: 10.366398, z: -72.52661}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_1_submesh_5.001
+      parentName: Untitled(Clone)
+      position: {x: 0.0026677905, y: 14.988342, z: -44.614105}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_1_submesh_5.002
+      parentName: Untitled(Clone)
+      position: {x: 0.00000011527931, y: 10.366398, z: -72.52661}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_1_submesh_5.003
+      parentName: Untitled(Clone)
+      position: {x: 0.00000011527931, y: 10.366398, z: -72.52661}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_1_submesh_5.004
+      parentName: Untitled(Clone)
+      position: {x: 0.00000011527931, y: 10.366398, z: -72.52661}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_1_submesh_6
+      parentName: Untitled(Clone)
+      position: {x: 3.9251757e-15, y: -2.3793263e-15, z: 100}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_2_submesh_0
+      parentName: Untitled(Clone)
+      position: {x: 3.9251757e-15, y: -2.3793263e-15, z: 100}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_3_submesh_0
+      parentName: Untitled(Clone)
+      position: {x: 3.9251757e-15, y: -2.3793263e-15, z: 100}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_4_submesh_0
+      parentName: Untitled(Clone)
+      position: {x: 3.9251757e-15, y: -2.3793263e-15, z: 100}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_5_submesh_0
+      parentName: Untitled(Clone)
+      position: {x: 3.9251757e-15, y: -2.3793263e-15, z: 100}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_6_submesh_0
+      parentName: Untitled(Clone)
+      position: {x: 3.9251757e-15, y: -2.3793263e-15, z: 100}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: model_7_submesh_0
+      parentName: Untitled(Clone)
+      position: {x: 3.9251757e-15, y: -2.3793263e-15, z: 100}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
