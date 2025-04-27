@@ -14,12 +14,20 @@ public class IronManController : MonoBehaviour
 
     public GameObject manModel;
 
+    [Header("Camera Reference")]
+    public Transform cameraTransform;
+
     [Header("IronMan Reference")]
     public GameObject model;
+
+    public Animator modelAnimator;
 
     public GameObject head, Body, rightHand, leftHand, rightLeg, leftLeg;
 
     public bool IsIronMan = false;
+
+    [Header("Hand Offset")]
+    public float handYOffset = 10f;
 
     [Header("Character Bones")]
     public Transform manHead;
@@ -28,6 +36,9 @@ public class IronManController : MonoBehaviour
     public Transform manLeftHand;
     public Transform manRightLeg;
     public Transform manLeftLeg;
+
+    [Header("Iron Man Rigidbody")]
+    public Rigidbody[] ýronManRb;
 
     [Header("Move Reference")]
     public CharacterController characterController;
@@ -67,8 +78,18 @@ public class IronManController : MonoBehaviour
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
-        Vector3 move = transform.right * x + transform.forward * z;
-        characterController.Move(move * moveSpeed * Time.deltaTime);
+        Vector3 forward = cameraTransform.forward;
+        Vector3 right = cameraTransform.right;
+
+        forward.y = 0f;
+        right.y = 0f;
+
+        forward.Normalize();
+        right.Normalize();
+
+        Vector3 moveDirection = forward * z + right * x;
+
+        characterController.Move(moveDirection * moveSpeed * Time.deltaTime);
 
         if (characterController.isGrounded && velocity.y < 0)
         {
@@ -77,6 +98,18 @@ public class IronManController : MonoBehaviour
 
         velocity.y += gravity * Time.deltaTime;
         characterController.Move(velocity * Time.deltaTime);
+
+        if (moveDirection.magnitude >= 0.1f)
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 10f);
+
+            modelAnimator.SetBool("Walk", true);
+        }
+        else
+        {
+            modelAnimator.SetBool("Walk", false);
+        }
     }
 
     void ChangeIronMan(bool isEnable)
@@ -89,15 +122,30 @@ public class IronManController : MonoBehaviour
         manModel.SetActive(isEnable);
 
         model.SetActive(!isEnable);
+
+        if (model.active == false)
+        {
+            head.SetActive(true);
+            Body.SetActive(true);
+            rightHand.SetActive(true);
+            leftHand.SetActive(true);
+            rightLeg.SetActive(true);
+            leftLeg.SetActive(true);
+        }
     }
 
     IEnumerator ChangeIronManDelay()
     {
-        Debug.Log("Change Started");
+        ýnput.enabled = false;
+
+        foreach (Rigidbody rb in ýronManRb)
+        {
+            rb.isKinematic = IsIronMan;
+        }
 
         yield return StartCoroutine(AttachPartsToBones());
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.2f);
 
         head.SetActive(false);
         Body.SetActive(false);
@@ -107,8 +155,6 @@ public class IronManController : MonoBehaviour
         leftLeg.SetActive(false);
 
         ChangeIronMan(!IsIronMan);
-
-        Debug.Log("Change Finished");
     }
 
     IEnumerator AttachPartsToBones()
@@ -130,6 +176,15 @@ public class IronManController : MonoBehaviour
         Quaternion startRightLegRot = rightLeg.transform.rotation;
         Quaternion startLeftLegRot = leftLeg.transform.rotation;
 
+        Quaternion characterRotation = transform.rotation;
+
+        Quaternion targetHeadRot = characterRotation;
+        Quaternion targetBodyRot = characterRotation;
+        Quaternion targetRightHandRot = characterRotation;
+        Quaternion targetLeftHandRot = characterRotation;
+        Quaternion targetRightLegRot = characterRotation;
+        Quaternion targetLeftLegRot = characterRotation;
+
         while (elapsedTime < duration)
         {
             float t = elapsedTime / duration;
@@ -141,12 +196,12 @@ public class IronManController : MonoBehaviour
             rightLeg.transform.position = Vector3.Lerp(startRightLeg, manRightLeg.position, t);
             leftLeg.transform.position = Vector3.Lerp(startLeftLeg, manLeftLeg.position, t);
 
-            head.transform.rotation = Quaternion.Lerp(startHeadRot, manHead.rotation, t);
-            Body.transform.rotation = Quaternion.Lerp(startBodyRot, manBody.rotation, t);
-            rightHand.transform.rotation = Quaternion.Lerp(startRightHandRot, manRightHand.rotation, t);
-            leftHand.transform.rotation = Quaternion.Lerp(startLeftHandRot, manLeftHand.rotation, t);
-            rightLeg.transform.rotation = Quaternion.Lerp(startRightLegRot, manRightLeg.rotation, t);
-            leftLeg.transform.rotation = Quaternion.Lerp(startLeftLegRot, manLeftLeg.rotation, t);
+            head.transform.rotation = Quaternion.Lerp(startHeadRot, targetHeadRot, t);
+            Body.transform.rotation = Quaternion.Lerp(startBodyRot, targetBodyRot, t);
+            rightHand.transform.rotation = Quaternion.Lerp(startRightHandRot, targetRightHandRot, t);
+            leftHand.transform.rotation = Quaternion.Lerp(startLeftHandRot, targetLeftHandRot, t);
+            rightLeg.transform.rotation = Quaternion.Lerp(startRightLegRot, targetRightLegRot, t);
+            leftLeg.transform.rotation = Quaternion.Lerp(startLeftLegRot, targetLeftLegRot, t);
 
             elapsedTime += Time.deltaTime;
             yield return null;
@@ -154,17 +209,16 @@ public class IronManController : MonoBehaviour
 
         head.transform.position = manHead.position;
         Body.transform.position = manBody.position;
-        rightHand.transform.position = manRightHand.position;
-        leftHand.transform.position = manLeftHand.position;
+        rightHand.transform.position = manRightHand.position + new Vector3(0f, -handYOffset, 0f);
+        leftHand.transform.position = manLeftHand.position + new Vector3(0f, -handYOffset, 0f);
         rightLeg.transform.position = manRightLeg.position;
         leftLeg.transform.position = manLeftLeg.position;
 
-        head.transform.rotation = manHead.rotation;
-        Body.transform.rotation = manBody.rotation;
-        rightHand.transform.rotation = manRightHand.rotation;
-        leftHand.transform.rotation = manLeftHand.rotation;
-        rightLeg.transform.rotation = manRightLeg.rotation;
-        leftLeg.transform.rotation = manLeftLeg.rotation;
+        head.transform.rotation = targetHeadRot;
+        Body.transform.rotation = targetBodyRot;
+        rightHand.transform.rotation = targetRightHandRot;
+        leftHand.transform.rotation = targetLeftHandRot;
+        rightLeg.transform.rotation = targetRightLegRot;
+        leftLeg.transform.rotation = targetLeftLegRot;
     }
-
 }
