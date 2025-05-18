@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class IronManController : MonoBehaviour
 {
     [Header("Man Reference")]
-    public PlayerInput ýnput;
+    public PlayerInput input;
     public Animator controller;
     public ThirdPersonController thirdPersonController;
     public BasicRigidBodyPush basicRigidBodyPush;
@@ -38,7 +38,7 @@ public class IronManController : MonoBehaviour
     public Transform manLeftLeg;
 
     [Header("Iron Man Rigidbody")]
-    public Rigidbody[] ýronManRb;
+    public Rigidbody[] ironManRb;
 
     [Header("Move Reference")]
     public CharacterController characterController;
@@ -49,7 +49,7 @@ public class IronManController : MonoBehaviour
 
     void Start()
     {
-        ýnput = GetComponent<PlayerInput>();
+        input = GetComponent<PlayerInput>();
         controller = GetComponent<Animator>();
         thirdPersonController = GetComponent<ThirdPersonController>();
         basicRigidBodyPush = GetComponent<BasicRigidBodyPush>();
@@ -114,7 +114,7 @@ public class IronManController : MonoBehaviour
 
     void ChangeIronMan(bool isEnable)
     {
-        ýnput.enabled = isEnable;
+        input.enabled = isEnable;
         controller.enabled = isEnable;
         thirdPersonController.enabled = isEnable;
         basicRigidBodyPush.enabled = isEnable;
@@ -136,9 +136,9 @@ public class IronManController : MonoBehaviour
 
     IEnumerator ChangeIronManDelay()
     {
-        ýnput.enabled = false;
+        input.enabled = false;
 
-        foreach (Rigidbody rb in ýronManRb)
+        foreach (Rigidbody rb in ironManRb)
         {
             rb.isKinematic = IsIronMan;
         }
