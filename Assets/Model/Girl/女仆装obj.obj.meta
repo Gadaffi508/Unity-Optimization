@@ -1,0 +1,712 @@
+fileFormatVersion: 2
+guid: 664992cb8278f9641ac122f4e51a9881
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_Button_ButtonStyle_0_Button_0Mat
+    second: {fileID: 2100000, guid: dba38ab0abad94d4092fff9f23adc9eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_Button_ButtonStyle_0_Button_1Mat
+    second: {fileID: 2100000, guid: 2bbcf2b5c7c2297458c97faacc071d98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_Button_ButtonStyle_0_Button_4Mat
+    second: {fileID: 2100000, guid: 8d89ef80ae4ba9145ba9511bd644a355, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_Button_ButtonStyle_0_Button_5Mat
+    second: {fileID: 2100000, guid: 416e17c0b58c17d4dab0e75c2324698e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_Button_ButtonStyle_0_Button_6Mat
+    second: {fileID: 2100000, guid: 6a4081ae09aae1e4884b987722ab75bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_Button_ButtonStyle_1_Button_2Mat
+    second: {fileID: 2100000, guid: 223175886ec780f4cbcd261a227cc3ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_Button_ButtonStyle_1_Button_3Mat
+    second: {fileID: 2100000, guid: 18e2894a27a889d449edb885d548fc3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_0_ClothPiece_0Mat
+    second: {fileID: 2100000, guid: 9b5f5b36918c1dd44a3724c6f1cd4e21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_0_ClothPiece_13Mat
+    second: {fileID: 2100000, guid: 2811340d6e20521409256654ebd11d77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_10_ClothPiece_61Mat
+    second: {fileID: 2100000, guid: e814eede9b7a64d4d8d16c6aa0e1b615, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_10_ClothPiece_64Mat
+    second: {fileID: 2100000, guid: 12d8ed737700c3b4db57e3fd49f279f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_10_ClothPiece_65Mat
+    second: {fileID: 2100000, guid: f84c0563c7f53234d9c72687f0c7cfb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_10_ClothPiece_68Mat
+    second: {fileID: 2100000, guid: 04efd847fa380934aa89656e6015d529, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_10_ClothPiece_86Mat
+    second: {fileID: 2100000, guid: 717d2baacd7ef1348852514c46653c26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_10_ClothPiece_87Mat
+    second: {fileID: 2100000, guid: 277a35a7d5b796d4bb62029f0d13cf8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_10_ClothPiece_88Mat
+    second: {fileID: 2100000, guid: ef834e37bd7c45a4699edf497fb27362, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_10_ClothPiece_89Mat
+    second: {fileID: 2100000, guid: 7de693869a2dbde46a28651d8743a0f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_11_ClothPiece_100Mat
+    second: {fileID: 2100000, guid: a8562f6e1f709b74f82226d1ee896272, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_11_ClothPiece_67Mat
+    second: {fileID: 2100000, guid: e33d2aaaa15eb1d47a5fe389d89059a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_11_ClothPiece_70Mat
+    second: {fileID: 2100000, guid: f9283e3b9b5ef6a40bfbe35687b8a798, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_11_ClothPiece_72Mat
+    second: {fileID: 2100000, guid: 177febb89683865479b3a7388ef9e7bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_11_ClothPiece_79Mat
+    second: {fileID: 2100000, guid: b57055b15cf06034389b0a9ebb7e01a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_12_ClothPiece_75Mat
+    second: {fileID: 2100000, guid: 3625fe23b3a6dad4b82061cbdfb9e08f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_13_ClothPiece_103Mat
+    second: {fileID: 2100000, guid: 5d24cdf8e4460554d84b6b29170cf891, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_13_ClothPiece_90Mat
+    second: {fileID: 2100000, guid: a5c0b0cd91f80664b819231b0c462f34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_13_ClothPiece_92Mat
+    second: {fileID: 2100000, guid: feafb3a2d1679ff408e8e9173e7032b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_13_ClothPiece_93Mat
+    second: {fileID: 2100000, guid: d84ef69720430fc43a0828a11eb8be8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_14_ClothPiece_102_Sub_7Mat
+    second: {fileID: 2100000, guid: e67c479ab3b73b74e953d64cd498466b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_14_ClothPiece_102_Sub_8Mat
+    second: {fileID: 2100000, guid: 58a36b6ee8793b041982f19a7303e395, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_14_ClothPiece_106_Sub_10Mat
+    second: {fileID: 2100000, guid: 9fe9a383010b88c4fbb5f310a7898b7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_14_ClothPiece_106_Sub_9Mat
+    second: {fileID: 2100000, guid: 9bce903bb127de942b3a1c7d9d1c3247, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_14_ClothPiece_96_Sub_3Mat
+    second: {fileID: 2100000, guid: 760d1eb466b110e4f9b0a6a11a034a07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_14_ClothPiece_96_Sub_4Mat
+    second: {fileID: 2100000, guid: 2231916da8942334988486bd2c9943c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_14_ClothPiece_97_Sub_5Mat
+    second: {fileID: 2100000, guid: effb9030b246aa34e90965ec8e8e312e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_14_ClothPiece_97_Sub_6Mat
+    second: {fileID: 2100000, guid: 7de97cf4249dbee4cb2dee03e8beebe8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_1_ClothPiece_16Mat
+    second: {fileID: 2100000, guid: 701970ff34891a244bef0b6d4a51b3bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_1_ClothPiece_1Mat
+    second: {fileID: 2100000, guid: 136ffde3e85cace40ab7212b96a43d99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_1_ClothPiece_73Mat
+    second: {fileID: 2100000, guid: c67c5269bedc2034094cd0bf450cac3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_1_ClothPiece_78Mat
+    second: {fileID: 2100000, guid: 5f3541fa7b856a74ebd1bf3fbb37adc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_11Mat
+    second: {fileID: 2100000, guid: 8efdd8a21e9ba344ba50449d5c8185f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_12Mat
+    second: {fileID: 2100000, guid: 1ec2098a81ddf7f4e91c60cfd16ccc7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_14Mat
+    second: {fileID: 2100000, guid: 9500b9ccd00a0264086881f7a6992029, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_17Mat
+    second: {fileID: 2100000, guid: 24da656ac89d68445ab15c787a2f8cd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_18Mat
+    second: {fileID: 2100000, guid: b779c1efc48824746b563a05e6598d3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_19Mat
+    second: {fileID: 2100000, guid: 4ce2197efa1469d47af2bb1f232057c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_21Mat
+    second: {fileID: 2100000, guid: 534f451faec2e844aa8778a18bc93372, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_23Mat
+    second: {fileID: 2100000, guid: 8db3eef6fd7a69447b86767d642bd3ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_24Mat
+    second: {fileID: 2100000, guid: 06db47efd6f28c240b9d387d637497e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_25Mat
+    second: {fileID: 2100000, guid: b736a1e9dac038e4f8735e1294e9ebdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_2Mat
+    second: {fileID: 2100000, guid: b55956341b81cfa4c905d89bf1449849, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_32Mat
+    second: {fileID: 2100000, guid: 0b7c32e8da078e44582d9579f60eacaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_35Mat
+    second: {fileID: 2100000, guid: 203561cc8b360634c98b6ff2e40cb7eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_37Mat
+    second: {fileID: 2100000, guid: a6a4ed86db87f8e4580f7716a08e8bc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_38Mat
+    second: {fileID: 2100000, guid: 0780dcf6814f5f647880309c93d61a10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_39Mat
+    second: {fileID: 2100000, guid: 0055ef6b86a06e2498076eeaea46fdcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_3Mat
+    second: {fileID: 2100000, guid: 9d9c78874b6fec04994064635fdb70aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_40Mat
+    second: {fileID: 2100000, guid: 17d3e7f88a4ed474d938957455250e65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_41Mat
+    second: {fileID: 2100000, guid: 32eced752a76a4a4b93d838a23663fa9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_42Mat
+    second: {fileID: 2100000, guid: d820b1865e096b94a8269a02e1284257, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_43Mat
+    second: {fileID: 2100000, guid: 24a0f8fbbfd9ed94196d0c3c382c4f0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_44Mat
+    second: {fileID: 2100000, guid: 1ff0b2c34bc937c49bcfbc9bffc3e271, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_45Mat
+    second: {fileID: 2100000, guid: 4ee5df523d8a3e847ba6857a6107ca8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_46Mat
+    second: {fileID: 2100000, guid: fc252bcfbe5af7246acc07caa8b84689, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_47Mat
+    second: {fileID: 2100000, guid: 47d7b3f67833369418f82d7e9bbb896a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_48Mat
+    second: {fileID: 2100000, guid: 7efe7a3ef73a02441a44450a88c5f490, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_49Mat
+    second: {fileID: 2100000, guid: c3123d91b4ecd884a9f95309b250cdc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_4Mat
+    second: {fileID: 2100000, guid: 93a90782011244541880e2631e830c26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_50Mat
+    second: {fileID: 2100000, guid: 6a3651d16ce2fb6478a41e6f814a06de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_51Mat
+    second: {fileID: 2100000, guid: 245751bd910ba1a4998f83515d8aeb86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_52Mat
+    second: {fileID: 2100000, guid: 233397cf68b49ce40970a26e7abe5ae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_53Mat
+    second: {fileID: 2100000, guid: dde1572de44ab66439a97924c0eb65a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_54Mat
+    second: {fileID: 2100000, guid: 12ab868754b609642844913c99a0b324, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_55Mat
+    second: {fileID: 2100000, guid: 78bd2cc17c6b158488681076e4929afa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_56Mat
+    second: {fileID: 2100000, guid: 9c6ab86942a014e4082d413f29165489, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_57Mat
+    second: {fileID: 2100000, guid: fa31d7a1feed7db459a036ca238031b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_58Mat
+    second: {fileID: 2100000, guid: 64f1ae7b5ca1bac49b100196fab31e67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_5Mat
+    second: {fileID: 2100000, guid: 822449f30555b924e84fa8ed34fcbf5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_6Mat
+    second: {fileID: 2100000, guid: a413003396b934547a0a73e4f633ef19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_2_ClothPiece_7Mat
+    second: {fileID: 2100000, guid: 75dcc4546f68c8040ad56c1020813511, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_3_ClothPiece_76Mat
+    second: {fileID: 2100000, guid: 8d219bd33b097d54aa3a19dd9e311eb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_3_ClothPiece_77Mat
+    second: {fileID: 2100000, guid: 22b81dbc60104d444b90f90e39a73159, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_3_ClothPiece_8Mat
+    second: {fileID: 2100000, guid: 2b34d84e18195ca41b6be63a366f2cd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_4_ClothPiece_101Mat
+    second: {fileID: 2100000, guid: f7e3edb310e34584d92a7db6dad97e10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_4_ClothPiece_20Mat
+    second: {fileID: 2100000, guid: 77aaef8452b29bf41a6b326b0dc19c0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_4_ClothPiece_60Mat
+    second: {fileID: 2100000, guid: b4c22510ef36329498f548821d74f288, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_4_ClothPiece_66Mat
+    second: {fileID: 2100000, guid: a3259b8c38c9f3e4b84bd9df76c3490c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_4_ClothPiece_69Mat
+    second: {fileID: 2100000, guid: 3130b0094c9f4a5488e61bf92d66dbcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_4_ClothPiece_71Mat
+    second: {fileID: 2100000, guid: 6619abe421f30604dbaf5b1637ce2449, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_4_ClothPiece_91Mat
+    second: {fileID: 2100000, guid: d43915d7c27d9684bb348ea19b9767a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_4_ClothPiece_9Mat
+    second: {fileID: 2100000, guid: 87034c886d6b8e74d948ecdd1a91ef34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_5_ClothPiece_10Mat
+    second: {fileID: 2100000, guid: 3f2bae910884a4d468eacb34976e9d64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_5_ClothPiece_15Mat
+    second: {fileID: 2100000, guid: 9e920b3aa5df45444b2f0c7f1020380e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_6_ClothPiece_22Mat
+    second: {fileID: 2100000, guid: d89fb68cb7c8bfe428c938a7f74c6d46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_7_ClothPiece_26Mat
+    second: {fileID: 2100000, guid: 88b1a9c8ad364e44f922ea52d0352d47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_7_ClothPiece_27Mat
+    second: {fileID: 2100000, guid: e8b8b1afe03847c4da0b4ddee59ec946, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_7_ClothPiece_28Mat
+    second: {fileID: 2100000, guid: 666f475b5efb21d43b41b7a2df8452c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_7_ClothPiece_29Mat
+    second: {fileID: 2100000, guid: b7349fe4a2af5a84d9763493d802a678, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_7_ClothPiece_30Mat
+    second: {fileID: 2100000, guid: 7aef070473778a54f8ba1125a78a4ac5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_7_ClothPiece_33Mat
+    second: {fileID: 2100000, guid: 910a2a8de4a2020449deb084694b6f05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_7_ClothPiece_34Mat
+    second: {fileID: 2100000, guid: 32721552cd45630448b87f94c47aebb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_7_ClothPiece_36Mat
+    second: {fileID: 2100000, guid: 2f46eb305d06ccd4587a322077dee515, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_8_ClothPiece_104Mat
+    second: {fileID: 2100000, guid: 7b416455d6b7a67448513c1356887d00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_8_ClothPiece_105Mat
+    second: {fileID: 2100000, guid: 2cdef086228fb384db08561af7a30efb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_8_ClothPiece_31Mat
+    second: {fileID: 2100000, guid: cce6f8dd0d84100429cc3670b794f5e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_8_ClothPiece_80Mat
+    second: {fileID: 2100000, guid: 74d2e303a45596a44924da8e217fd8e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_8_ClothPiece_81Mat
+    second: {fileID: 2100000, guid: edd131a2b70139f4eababd1357073ae8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_8_ClothPiece_82Mat
+    second: {fileID: 2100000, guid: d02b3e1785e007b4e95e578b52bddb55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_8_ClothPiece_83Mat
+    second: {fileID: 2100000, guid: d8cf351654f09b34b8cd874d7d2852d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_8_ClothPiece_84Mat
+    second: {fileID: 2100000, guid: d7061fe3af1e1404eb74a22722c9ff38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_8_ClothPiece_85Mat
+    second: {fileID: 2100000, guid: ffa8fb2f54727a3478a1172b6cf179e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_8_ClothPiece_94Mat
+    second: {fileID: 2100000, guid: 595d706c913761446a0df6d2df1f176c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_8_ClothPiece_95Mat
+    second: {fileID: 2100000, guid: 44252726ef480f842a8e583a37e87a9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_8_ClothPiece_98Mat
+    second: {fileID: 2100000, guid: a6bbdfa193cb623439b721bd9f561f9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_8_ClothPiece_99Mat
+    second: {fileID: 2100000, guid: b8f99b753dc534e4a8d0d8beab662ea7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_9_ClothPiece_59Mat
+    second: {fileID: 2100000, guid: c4d7552a16b7c824ea045c5f8c74ed41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_9_ClothPiece_62Mat
+    second: {fileID: 2100000, guid: f3de0b4fec3891940912f12d962503cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_9_ClothPiece_63Mat
+    second: {fileID: 2100000, guid: 5c02088e62106ad43b1bf50fe2098d36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_ClothPiece_Fabric_9_ClothPiece_74Mat
+    second: {fileID: 2100000, guid: 6ed39abfa4cb012419ed2615c59ce3f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_SkinnedMesh_Avatar_0_Sub_0Mat
+    second: {fileID: 2100000, guid: d6edcbe7dbacd634a931cd7f63f782e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_SkinnedMesh_Avatar_0_Sub_1Mat
+    second: {fileID: 2100000, guid: 3bf77886be5c7e04e9ee4c396a8c95a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_SkinnedMesh_Avatar_0_Sub_2Mat
+    second: {fileID: 2100000, guid: 20e1e5b62a5215243bc70145092733bd, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
