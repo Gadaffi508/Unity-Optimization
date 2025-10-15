@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 853f95c269ebfcc439cb8c27ce8a606e, type: 3}
+  m_Name: MissionInfo_Level_1
+  m_EditorClassIdentifier: Assembly-CSharp::MissionInfo
+  <ID>k__BackingField: 1
+  <Name>k__BackingField: Walk
+  <Explain>k__BackingField: character learning to walk
+  <IsComploted>k__BackingField: 0
+  <m_MissionType>k__BackingField: 1
+  <LevelRequirement>k__BackingField: 0
+  <PreviousLevels>k__BackingField: []
+  <XP>k__BackingField: 10
+  <Money>k__BackingField: 5
