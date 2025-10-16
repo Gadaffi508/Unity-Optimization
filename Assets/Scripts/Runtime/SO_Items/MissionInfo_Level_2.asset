@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 853f95c269ebfcc439cb8c27ce8a606e, type: 3}
-  m_Name: MissionInfo_Level_1
+  m_Name: MissionInfo_Level_2
   m_EditorClassIdentifier: Assembly-CSharp::MissionInfo
   <ID>k__BackingField: 1
   <Name>k__BackingField: Walk
@@ -18,7 +18,7 @@ MonoBehaviour:
   <IsComploted>k__BackingField: 0
   <m_MissionType>k__BackingField: 1
   <LevelRequirement>k__BackingField: 0
-  <PreviousLevels>k__BackingField: {fileID: 0}
-  <NextLevels>k__BackingField: {fileID: 11400000, guid: 9d502d74009628442a9d8c06318b1d5e, type: 2}
+  <PreviousLevels>k__BackingField: {fileID: 11400000, guid: 72fe6f5da94b6e74d98112bd68f3640d, type: 2}
+  <NextLevels>k__BackingField: {fileID: 0}
   <XP>k__BackingField: 10
   <Money>k__BackingField: 5
