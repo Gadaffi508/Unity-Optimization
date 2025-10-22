@@ -32,14 +32,23 @@ public class QuestInstance : InstanceToCLass<QuestInstance>
     /// </summary>
     public void SetStatus(CompletionStatus status)
     {
-        status = currentStatus;
+        currentStatus = status;
     }
 
     /// <summary>
     /// Ensures that the task is registered.
     /// </summary>
-    public void SaveMission()
+    /// <param name="saveMisson"> write to message from param </param>
+    public void SaveMission(string save)
     {
+        SaveMissionData.Save(save);
+    }
 
+    /// <summary>
+    /// Ensures that the task is registered.
+    /// </summary>
+    public void LoadMission()
+    {
+        string a = SaveMissionData.Load<QuestInstance>(this);
     }
 }

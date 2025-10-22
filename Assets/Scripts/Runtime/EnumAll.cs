@@ -28,4 +28,22 @@ public class EnumAll
         Completed,
         Failed
     }
+
+    /// <summary>
+    /// QuestEventType Enum
+    /// </summary>
+    public enum QuestEventType
+    {
+        None,
+        Easy
+    }
+
+    /// <summary>
+    /// TriggerType Enum
+    /// </summary>
+    public enum TriggerType
+    {
+        OnEnter,
+        OnExit
+    }
 }

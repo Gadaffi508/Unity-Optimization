@@ -24,7 +24,7 @@ public class MissionInfo : ScriptableObject
     public string Explain { get; private set; }
 
     [field: SerializeField]
-    public bool IsComploted { get; set; }
+    public bool Completed { get; set; }
 
     /// <summary>
     /// This field contains the values ​​of the task.
@@ -43,6 +43,9 @@ public class MissionInfo : ScriptableObject
     [field: SerializeField]
     public MissionInfo NextLevels { get; private set; }
 
+    [field: SerializeField]
+    public List<QuestObjective> questObjective { get; private set; }
+
     /// <summary>
     /// This field includes earnings references as a result of the task.
     /// </summary>
@@ -53,4 +56,15 @@ public class MissionInfo : ScriptableObject
 
     [field: SerializeField]
     public float Money { get; private set; }
+
+    public void Evaluate()
+    {
+        foreach (QuestObjective obj in questObjective)
+        {
+            if (obj.completionStatus == CompletionStatus.Completed)
+            {
+
+            }
+        }
+    }
 }

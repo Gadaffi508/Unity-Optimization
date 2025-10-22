@@ -2,12 +2,17 @@ using UnityEngine;
 
 public class ConditionChecker : MonoBehaviour
 {
+    public MissionInfo missionInfo;
+
     private void OnTriggerEnter(Collider other)
     {
-        ///<summary>
-        ///Condition
-        ///Example : PlayerHasItem(SwordOfTruth) == true
-        ///Trigger : UnlockQuest("AncienTrial)
-        /// </summary>>
+        missionInfo.Evaluate();
+        EventBus.Instance.ItemCollected<ConditionChecker>(this);
+
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        
     }
 }
